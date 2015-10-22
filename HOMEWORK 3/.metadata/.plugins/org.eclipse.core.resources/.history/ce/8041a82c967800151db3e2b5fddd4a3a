@@ -1,0 +1,16 @@
+
+public class Delenie {
+
+	public static void main(String[] args) {
+		System.out.println("опнцпюлю, йнърн опхелю 2 жекнвхякемх вхякю гю бунд х хгбефдю нярюрзйю нр декемхерн мю вхякюрю:");
+		int x = 39;
+		int y = 10;
+		int c = x / y;
+		System.out.println("X = 39");
+		System.out.println("Y = 10");
+		System.out.println("C = X % Y");
+		System.out.print("C = ");
+		System.out.println(c);
+	}
+
+}
