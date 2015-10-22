@@ -6,7 +6,7 @@ public class ConsoleNumberAssembly {
 
 	public static void main(String[] args) {
 		test = new Scanner (System.in, "UTF-8");		
-		System.out.println("       ------------ׁ׃ָּ׀ְֵֽ ְֽ ׳ְָֻׁ------------ ");
+		System.out.println("       ------------ׁ׃ָּ׀ְֵֽ ְֽ ׳ְָֻׁ------------");
 		System.out.println("                       ? + ? = ? ");
 		System.out.println(" ");
 		System.out.print("ֲתגוהועו ןתנגמעמ קטסכמ : ");
