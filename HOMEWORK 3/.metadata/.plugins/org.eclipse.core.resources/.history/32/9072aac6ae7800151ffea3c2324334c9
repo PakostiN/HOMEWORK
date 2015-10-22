@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class RealUnreal {
+
+	public static void main(String[] args) {
+		Scanner test = new Scanner (System.in, "UTF-8");
+		System.out.println("Напишете програма, която приема реално число като вход, и изкарва на конзолата резултата от делението му с цяло число.");
+		System.out.println(" ");
+		System.out.println("Въведете делител (Реално число) : ");
+		float x = test.nextFloat( );
+		System.out.println(" ");
+		System.out.println("Въведете делимо (Цяло число) :  ");
+		int y = test.nextInt( );
+		System.out.println(" ");
+		System.out.println(" X / Y = C");
+		float c = x/y;
+		System.out.println("C = ");
+		System.out.println(c);
+	}
+
+}

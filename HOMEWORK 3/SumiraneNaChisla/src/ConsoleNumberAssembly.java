@@ -16,6 +16,8 @@ public class ConsoleNumberAssembly {
 		int Y = test.nextInt( );
 		System.out.print("—бора на вашите числа е : ");
 		System.out.print(X+Y);
+		
+		test.close();
 	}
 
 }

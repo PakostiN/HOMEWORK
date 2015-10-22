@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Delenie {
+
+	public static void main(String[] args) {
+		Scanner test = new Scanner (System.in, "UTF-8");
+		System.out.println("ÏĞÎÃĞÀÌÀ, ÊÎßÒÎ ÏĞÈÅÌÀ 2 ÖÅËÎ×ÈÑËÅÍÈ ×ÈÑËÀ ÇÀ ÂÕÎÄ È ÈÇÂÅÆÄÀ ÎÑÒÀÒÚÊÀ ÎÒ ÄÅËÅÍÈÅÒÎ ÍÀ ×ÈÑËÀÒÀ:");
+		System.out.println("Ìîëÿ âúâåäåòå äåëèìî: ");
+		int x = test.nextInt( );
+		System.out.print("X = ");
+		System.out.println(x);
+		System.out.println("Ìîëÿ âúâåäåòå äåëèòåë: ");
+		int y = test.nextInt( );
+		System.out.print("Y = ");
+		System.out.println(y);
+		int c = x % y;
+		System.out.println("C = X % Y");
+		System.out.print("Îñòàòúê: ");
+		System.out.println(c);
+	}
+
+}
