@@ -4,7 +4,8 @@ public class Liceto {
 
 	public static void main(String[] args) {
 		Scanner test = new Scanner (System.in, "UTF-8");
-		System.out.println("Направете програма, която приема две цели числа - съответно страната и височината на триъгълник. Пресметнете лицето на дадения триъгълник и я изведете на конзолата.");
+		System.out.println("Направете програма, която приема две цели числа - съответно страната и височината на триъгълник. Пресметнете лицето на дадения триъгълник и я изведете на конзолата."
+);
 		System.out.println(" ");
 		System.out.println("... S = (a*ha)/2 ... S = (b*hb)/2 ... S = (c*hc)/2 ...");
 		System.out.print("Моля въведете дължината на дадената страна: ");
@@ -20,7 +21,7 @@ public class Liceto {
 		System.out.print(")");
 		System.out.println(" / 2");
 		System.out.print("S = ");
-		float S = (a*ha)/2;
+		float S = (a*ha)/2f;
 		System.out.println(S);
 		
 		test.close();

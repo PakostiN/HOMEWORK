@@ -20,7 +20,7 @@ public class Liceto {
 		System.out.print(")");
 		System.out.println(" / 2");
 		System.out.print("S = ");
-		float S = (a*ha)/2;
+		float S = (a*ha)/2f;
 		System.out.println(S);
 		
 		test.close();
