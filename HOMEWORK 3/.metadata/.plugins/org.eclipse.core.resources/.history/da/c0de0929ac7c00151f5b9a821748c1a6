@@ -16,6 +16,9 @@ public class StringEQUALS {
 		boolean result = word.equals(hi);
 		System.out.print("- ");
 		System.out.println(result);
+
+
+		
 		
 		test.close();
 	}
