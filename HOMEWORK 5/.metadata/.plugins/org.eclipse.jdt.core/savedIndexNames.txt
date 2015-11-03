@@ -1,0 +1,6 @@
+INDEX VERSION 1.127+C:\Users\Pakostin\Desktop\Soft-Intellect\HOMEWORK\HOMEWORK 5\.metadata\.plugins\org.eclipse.jdt.core
+4171317498.index
+1564835592.index
+100855848.index
+42167563.index
+612049768.index

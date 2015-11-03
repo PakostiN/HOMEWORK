@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class KraqPriNulata {
+
+	public static void main(String[] args) {
+		Scanner test = new Scanner(System.in, "UTF-8");
+		int n;
+		int sum = 0;
+		for (;;) {
+			System.out.println("ÌÎËß ÂÚÂÅÄÅÒÅ ×ÈÑËÎ: ");
+			n = test.nextInt();
+			if (n == 0) {
+				break;
+			}
+			sum = sum + n;
+		}
+		System.out.println("Ñóìàòà íà ÷èñëàòà å : " + sum);
+		test.close();
+
+	}
+
+}
