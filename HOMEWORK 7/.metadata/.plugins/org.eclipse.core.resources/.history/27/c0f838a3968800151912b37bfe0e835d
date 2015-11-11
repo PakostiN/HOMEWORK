@@ -13,13 +13,16 @@ public class Zad3 {
 		System.out.println("Въведете второто число: ");
 
 		int b = test.nextInt();
-		if (a > b) {
-			System.out.println("4ao");
-		}
 
 		for (int i = a; i < b; i++) {
 			if (i < b && i % 3 == 0) {
 				System.out.println(i);
+			}
+			else if (a > b) {
+				System.out.println("4ao");
+				break;
+				
+
 			}
 
 		}
