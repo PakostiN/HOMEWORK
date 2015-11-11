@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Zadacha {
+
+	public static void main(String[] args) {
+		Scanner test = new Scanner (System.in, "UTF-8");
+		System.out.println("Въведете число от 2 до 9: ");
+		
+		int a = test.nextInt();
+		if (a < 2 || a > 9){
+			System.out.println("Числото е извън интервал!");
+		}
+		for (int[][] i = new int[a][a];;) {
+			int[][] matrix = new int[a][a];
+			System.out.println(matrix);
+			
+		}
+		
+
+			
+		}
+	
+		
+
+	}
+
+

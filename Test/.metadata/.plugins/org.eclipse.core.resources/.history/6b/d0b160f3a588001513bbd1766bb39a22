@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class Zadacha {
+
+	public static void main(String[] args) {
+		Scanner test = new Scanner (System.in, "UTF-8");
+		System.out.println("Въведете число от 2 до 9: ");
+		int a = test.nextInt();
+		if (a < 2 || a > 9){
+			System.out.println("Числото е извън интервал!");
+		}
+		int[] array = new int[a*a];
+		for (int i = 0; i < array.length; i++) {
+			System.out.println("Въведете число: ");
+			array[i] = test.nextInt();
+			
+			
+		}
+		int sum = 0;
+		
+		for (int i = 0; i < array.length; i++) {
+			sum = array[i] + sum;
+			
+		}
+		System.out.println(sum);
+		
+//		int[][] matrix = new int [a][a];
+//		if (a < 2 && a > 9){
+//			System.out.println("Числото е извън интервал!");
+//		}
+//		for (int row = 0;row < a;row++) {
+//			for (int col = a;;) {
+//				count = row + col;
+//			}
+//			
+//			System.out.println(count);
+//		}
+		
+		}}
+
+	
+
+
+
