@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Zad3 {
+
+	public static void main(String[] args) {
+		System.out.println(
+				"Напишете програма, която приема от конзолата 2 числа a и b (b > a) и изкарва на екрана всички числа от a до b, които се делят на 3 без остатък");
+		Scanner test = new Scanner(System.in, "UTF-8");
+		System.out.println("Въведете първото число: ");
+		
+		int a = test.nextInt();
+		
+		System.out.println("Въведете второто число: ");
+		
+		int b = test.nextInt();
+		
+		for (int i = 0; i < b; i++) {
+			for (;a > b;) {
+				System.out.println("4ao");
+				break;
+				
+			}
+			
+		}
+		
+	}
+}
