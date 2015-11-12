@@ -11,7 +11,8 @@ public class Zad2 {
 		for (int row = 0; row < matrix.length; row++) {
 			for (int col = 0; col < matrix[row].length; col++) {
 				int n = test.nextInt();
-				matrix[row][col] = n;				
+				matrix[row][col] = n;
+				n--;
 			}
 		}
 		for (int row = 0; row < matrix.length; row++) {
