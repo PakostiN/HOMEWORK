@@ -6,10 +6,7 @@ public class Zad3 {
 		int result = 0;
 		int[] MyArray = { 24, 43, 84, 34, 87, 34, 65, 12, 27, 64 };
 		for (int row = 0; row < MyArray.length; row++) {
-			if (row != 0) {
-
-			}
-			result = MyArray[row] * 10;
+				result = MyArray[row] * 10;
 
 			System.out.println("Числата от масива умножени по 10 са: " + row + " " + " : " + result);
 

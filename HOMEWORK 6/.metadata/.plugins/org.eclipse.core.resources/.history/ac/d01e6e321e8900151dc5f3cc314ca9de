@@ -1,0 +1,17 @@
+
+public class Zad4 {
+
+	public static void main(String[] args) {
+		System.out.println(
+				"Напишете програма, която търси число в масив от числа и връща индекса на първото намерено число.");
+		int n = 0;
+		int[] MyArray = { 42, 47, 65, 75, 83, 29, 12, 144 };
+		for (int row = 0; row < MyArray.length;) {
+			n = row;
+
+		}
+		System.out.println("Индекса на първото намерено число е: " + n);
+
+	}
+
+}

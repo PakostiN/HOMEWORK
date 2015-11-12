@@ -1,0 +1,17 @@
+
+public class Zad1 {
+
+	public static void main(String[] args) {
+		System.out.println("Напишете програма, която намира сбора на всичките четни елементи в масив.");
+		int result = 0;
+		int[] Array = {1,2,3,4,5,6};
+		for (int row = 0; row < Array.length; row++) {
+		
+			result = row + Array[row];	
+			
+		}
+		System.out.println("Сборът между четните числа от масива е : " + result);
+
+	}
+
+}
