@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Zad1 {
+
+	public static void main(String[] args) {
+		SayGreetings();
+
+	}
+	public static void SayGreetings(){
+		Scanner test = new Scanner (System.in, "UTF-8");
+		System.out.println("Write your Name!");
+		String name = test.next();
+		System.out.println("Write your Family!");
+		String fam = test.next();
+		System.out.println("GREETINGS " + name + " " + fam + " ! ");
+		test.close();
+	}
+
+}
