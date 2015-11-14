@@ -8,7 +8,7 @@ public class Zad4 {
 		for (int row = 0; row < MyArray.length;) {
 			row = n;
 			if(n == MyArray[row]){
-				System.out.println("Индекса на първото намерено число е: " + row);
+				System.out.println("Индекса на първото намерено число е: " + n);
 				break;
 			}
 			
